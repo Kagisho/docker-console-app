@@ -11,6 +11,7 @@ Navigate to the root folder of the application and execute command below to buil
 Once the image is built, execute the command below to run the container:
 `docker container run -it -t --name docker-console-app docker-console-app`
 
+`it` - will run the container in interactive mode to allow of input
 ## Output of the screen when the app runs
 
 ![Alt text](img/app-run.png)
