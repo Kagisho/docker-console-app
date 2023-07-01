@@ -4,14 +4,14 @@ This is a NET 7 console app that runs in Docker. The application takes text inpu
 
 ## Setup
 
-Navigate to the root folder of the application and execute command below to build the image:
+Pull image by executing the command below:  
+`docker pull kagisho/docker-console-app`
 
-`docker image build --tag docker-console-app . `
-
-Once the image is built, execute the command below to run the container:
-`docker container run -it -t --name docker-console-app docker-console-app`
+Once the image is pulled, execute the command below to run the container:  
+`docker container run -it -t --name docker-console-app kagisho/docker-console-app`
 
 `it` - will run the container in interactive mode to allow of input
+
 ## Output of the screen when the app runs
 
 ![Alt text](img/app-run.png)
