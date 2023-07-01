@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q7L4hZ9VK6eIOtt2IM+FOXkWj8kfq5MbV5OZ6Lk8A74Fwxtv+c0qM5oIsVvTmtBGZWJjA0J48INXczmoTAmnEA==",
+  "dgSpecHash": "kHvGuRanynRSq7YjkiuvpfdJkC/0o7y12mFjIfsnPkhPEsY6acRbASq8uYOM+AsMdLbObjH8n36NMlcuHAocDQ==",
   "success": true,
-  "projectFilePath": "c:\\Source\\docker-console-app\\docker-console-app.csproj",
+  "projectFilePath": "C:\\Source\\docker-console-app\\docker-console-app.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

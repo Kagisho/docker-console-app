@@ -1,9 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.ForegroundColor = ConsoleColor.Yellow;
-Console.WriteLine($"Welcome to console app, running on machine {Environment.MachineName}");
+Console.WriteLine($"Welcome to console app, running on machine {Environment.MachineName}{Environment.NewLine}");
 
 Console.ForegroundColor = ConsoleColor.White;
-Console.WriteLine("Enter a text to repeat:");
+Console.WriteLine("Enter text to repeat:");
 var text = Console.ReadLine();
 
 Console.WriteLine("Number of times to repeat it:");

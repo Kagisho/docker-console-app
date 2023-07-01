@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Source\\docker-console-app\\docker-console-app.csproj": {}
+    "C:\\Source\\docker-console-app\\docker-console-app.csproj": {}
   },
   "projects": {
-    "c:\\Source\\docker-console-app\\docker-console-app.csproj": {
+    "C:\\Source\\docker-console-app\\docker-console-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Source\\docker-console-app\\docker-console-app.csproj",
+        "projectUniqueName": "C:\\Source\\docker-console-app\\docker-console-app.csproj",
         "projectName": "docker-console-app",
-        "projectPath": "c:\\Source\\docker-console-app\\docker-console-app.csproj",
+        "projectPath": "C:\\Source\\docker-console-app\\docker-console-app.csproj",
         "packagesPath": "C:\\Users\\kmtso\\.nuget\\packages\\",
-        "outputPath": "c:\\Source\\docker-console-app\\obj\\",
+        "outputPath": "C:\\Source\\docker-console-app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kmtso\\AppData\\Roaming\\NuGet\\NuGet.Config",
