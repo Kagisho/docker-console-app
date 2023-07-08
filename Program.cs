@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.ForegroundColor = ConsoleColor.Yellow;
+﻿Console.ForegroundColor = ConsoleColor.Yellow;
 Console.WriteLine($"Welcome to console app, running on machine {Environment.MachineName}{Environment.NewLine}");
 
 Console.ForegroundColor = ConsoleColor.White;
@@ -9,11 +8,13 @@ var text = Console.ReadLine();
 Console.WriteLine("Number of times to repeat it:");
 var numberOfTimes = Console.ReadLine();
 
-for (int i = 0;i < Convert.ToInt32(numberOfTimes);i++) 
+var availableColours = Enum.GetValues<ConsoleColor>().ToList();
+availableColours.Remove(Console.BackgroundColor);
+
+var random = new Random();
+
+for (var i = 0;i < Convert.ToInt32(numberOfTimes);i++)
 {
-    Console.ForegroundColor = (ConsoleColor)i+1;
+    Console.ForegroundColor = availableColours[random.Next(0, availableColours.Count)];
     Console.WriteLine($"{i + 1}. {text}");
 }
-  
-
-
